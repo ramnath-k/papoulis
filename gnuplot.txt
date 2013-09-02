@@ -1,0 +1,2 @@
+p 'ball_001.dat' w l
+
