@@ -21,7 +21,7 @@ if __name__ == '__main__':
     m = args.m
     n = args.n
     pw = run_expt(m, n)
-    f = open('ball_001.dat', 'w')
+    f = open('example_02_08.dat', 'w')
     for i, v in enumerate(pw):
         data = str(i) + ' ' + str(v) + '\n'
         f.write(data)
